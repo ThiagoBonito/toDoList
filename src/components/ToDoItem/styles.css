@@ -1,0 +1,39 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.item-checkbox {
+  width: 7.5%;
+}
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 3px solid #4ea8de;
+  margin-left: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.isActive {
+  background-color: #585abd;
+  border: 3px solid #585abd;
+}
+.item-text {
+  color: #f2f2f2;
+  line-height: 2.5rem;
+  overflow: hidden;
+  width: 82.5%;
+}
+.active {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.item-trash {
+  width: 10%;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
